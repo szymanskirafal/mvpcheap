@@ -31,8 +31,8 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div class="d-flex p-3 h-100 flex-column justify-content-center">
+    <div class="container-fluid h-100 purple">
+      <div class="d-flex p-3 h-100 flex-column justify-content-between">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="{% url 'home' %}">mvpcheap</a>
         <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="border border-0"></span>
@@ -44,7 +44,7 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="{% url 'blog' %}">Blog</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#">Contact</a>
@@ -52,13 +52,10 @@
           </ul>
         </div>
       </nav>
-
         <h1 class="display-4 text-center">Do you dream to be free, independent, on your own? Don't just dream. It's enough. Do something with it.</h1>
-
-        <h2 class="p-4"><a href="#">Click here for a few hints.</a></h2>
+        <p>see green ?</p>
       </div>
     </div>
-
 
     <!-- Le javascript
     ================================================== -->

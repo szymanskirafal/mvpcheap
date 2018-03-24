@@ -1,0 +1,9 @@
+/* These styles are generated from project.scss. */
+
+html, body {
+  height: 100%;
+}
+
+.green {
+  background-color: green;
+}

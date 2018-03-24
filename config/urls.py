@@ -8,6 +8,12 @@ from django.views import defaults as default_views
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='pages/home.html'), name='home'),
     url(r'^about/$', TemplateView.as_view(template_name='pages/about.html'), name='about'),
+    url(r'^blog/$', TemplateView.as_view(template_name='pages/blog.html'), name='blog'),
+    url(r'^blog/how-to-do_business/$', TemplateView.as_view(template_name='pages/how-to-do-business.html'), name='how_to_do_business'),
+    url(r'^blog/how-to-make-money/$', TemplateView.as_view(template_name='pages/how-to-make-money.html'), name='how_to_make_money'),
+    url(r'^blog/how-to-sell/$', TemplateView.as_view(template_name='pages/how-to-sell.html'), name='how_to_sell'),
+    url(r'^blog/what-to-sell/$', TemplateView.as_view(template_name='pages/what-to-sell.html'), name='what_to_sell'),
+    url(r'^contact/$', TemplateView.as_view(template_name='pages/contact.html'), name='contact'),
 
     # Django Admin, use {% url 'admin:index' %}
     url(settings.ADMIN_URL, admin.site.urls),
