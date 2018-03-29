@@ -12,11 +12,10 @@ urlpatterns = [
     url(r'^blog/how-to-do_business/$', TemplateView.as_view(template_name='pages/how-to-do-business.html'), name='how_to_do_business'),
     url(r'^blog/how-to-make-money/$', TemplateView.as_view(template_name='pages/how-to-make-money.html'), name='how_to_make_money'),
     url(r'^blog/how-to-sell/$', TemplateView.as_view(template_name='pages/how-to-sell.html'), name='how_to_sell'),
-    url(r'^blog/what-to-sell/$', TemplateView.as_view(template_name='pages/what-is-mvp.html'), name='what_is_mvp'),
+    url(r'^blog/what-is-mvp/$', TemplateView.as_view(template_name='pages/what-is-mvp.html'), name='what_is_mvp'),
     url(r'^blog/what-to-sell/$', TemplateView.as_view(template_name='pages/what-to-sell.html'), name='what_to_sell'),
     url(r'^contact/$', TemplateView.as_view(template_name='pages/contact.html'), name='contact'),
-    url(r'^offer/$', TemplateView.as_view(template_name='pages/offer.html'), name='offer'),
-
+    
     # Django Admin, use {% url 'admin:index' %}
     url(settings.ADMIN_URL, admin.site.urls),
 
