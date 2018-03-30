@@ -16,6 +16,13 @@ html, body {
   border-color: #eed3d7;
 }
 
+.djangocon {
+  background: url("../images/djangocon.jpg") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .purple {
   background-color: purple;
 }
