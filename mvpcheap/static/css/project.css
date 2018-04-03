@@ -17,7 +17,14 @@ html, body {
 }
 
 .djangocon {
-  background: url("../images/djangocon.jpg") no-repeat;
+  background: url("/static/images/djangocon.jpg") no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.emile {
+  background: url("/static/images/emile-seguin-209058-unsplash.jpg") no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
