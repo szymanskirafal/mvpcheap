@@ -16,13 +16,6 @@ html, body {
   border-color: #eed3d7;
 }
 
-.chris {
-  background: url("/static/images/christopher-burns-253180-unsplash.jpg") no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .daniel {
   background: url("/static/images/daniel-von-appen-276283-unsplash.jpg") no-repeat;
   background-position: center;
@@ -30,12 +23,7 @@ html, body {
   background-size: cover;
 }
 
-.emile {
-  background: url("/static/images/emile-seguin-209058-unsplash.jpg") no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .purple {
   background-color: purple;
