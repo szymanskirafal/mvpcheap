@@ -23,3 +23,34 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.octo {
+    min-width: 30px;
+    min-height: 30px;
+    width: 45px;
+    height: auto;
+    border-radius: 5px;
+}
+.octopus-text {
+
+}
+.octopus {
+    background-color: #efedf7;
+    font-family: 'Trocchi';
+}
+
+.octopus-link {
+    color: black;
+}
+
+.link-octopus {
+    color: #483d8b;
+}
+
+.link-octopus:hover {
+    color: #241f47;
+}
+
+.text-octopus {
+    color: #483d8b;
+}

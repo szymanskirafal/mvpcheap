@@ -15,6 +15,7 @@ urlpatterns = [
     url(r'^blog/what-is-mvp/$', TemplateView.as_view(template_name='pages/what-is-mvp.html'), name='what_is_mvp'),
     url(r'^blog/what-to-sell/$', TemplateView.as_view(template_name='pages/what-to-sell.html'), name='what_to_sell'),
     url(r'^contact/$', TemplateView.as_view(template_name='pages/contact.html'), name='contact'),
+    url(r'^work/$', TemplateView.as_view(template_name='pages/work.html'), name='work'),
 
     # Django Admin, use {% url 'admin:index' %}
     url(settings.ADMIN_URL, admin.site.urls),

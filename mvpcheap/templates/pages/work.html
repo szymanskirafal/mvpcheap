@@ -1,0 +1,20 @@
+{% extends "base-with-nav1.html" %}
+{% load static %}
+{% block content %}
+<h1 class="text-center h-25 p-5">Recent works I'm proud the most.</h1>
+<div class="container-fluid d-flex p-3 h-50 flex-column justify-content-center text-center octopus">
+
+    <img src="{% static 'images/octopus.png' %}" class="rounded mx-auto octo" alt="octopus">
+
+
+    <br>
+
+    <a class="link-octopus" href="https://www.octopusreminder.com"><h2 class="link-octopus">OctopusReminder.com</h2></a>
+
+    <a href="https://github.com/szymanskirafal/octopusreminder"><i class="fa fa-github fa-3x contact-icon link-octopus"></i></a>
+    <hr>
+    <p class="text-octopus">technologies used:</p>
+    <p class="text-octopus">Python 3, Django, cookiecutter-django, PostgreSQL, Heroku, django-allauth, Mailgun, Celery, HTML5, CSS3, Bootstrap 4, Git, GitHub, Namecheap, PointDNS, Passion and Patience.</p>
+
+</div>
+{% endblock %}
