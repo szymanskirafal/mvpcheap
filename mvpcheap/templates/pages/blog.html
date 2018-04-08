@@ -1,11 +1,15 @@
-{% extends "base-with-nav.html" %}
+{% extends "base-with-nav1.html" %}
 {% block content %}
-<div class="container-fluid">
-  <h1 class="py-3">Blog</h1>
-  <a href="{% url 'how_to_make_money' %}"><h2>How to make money.</h2></a>
-  <a href="{% url 'what_to_sell' %}"><h2>What to sell.</h2></a>
-  <a href="{% url 'how_to_sell' %}"><h2>How to sell.</h2></a>
-  <a href="{% url 'how_to_do_business' %}"><h2>How to do business.</h2></a>
-  <a href="{% url 'what_is_mvp' %}"><h2>What is mvp.</h2></a>
+<div class="container-fluid d-flex flex-column justify-content-between min-height-90 steps-background">
+  <div class="container">
+    <h1 class="py-4">Blog</h1>
+    <a href="{% url 'how_to_make_money' %}"><h2>How to make money.</h2></a>
+    <a href="{% url 'what_to_sell' %}"><h2>What to sell.</h2></a>
+    <a href="{% url 'how_to_sell' %}"><h2>How to sell.</h2></a>
+    <a href="{% url 'how_to_do_business' %}"><h2>How to do business.</h2></a>
+    <a href="{% url 'what_is_mvp' %}"><h2>What is mvp.</h2></a>
+  </div>
+  <p class="p-3 text-secondary">Photo by Daniel Von Appen on Unsplash</p>
 </div>
+
 {% endblock %}
